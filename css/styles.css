@@ -1,0 +1,214 @@
+/* *{
+    outline: red 1px solid;
+} */
+
+/* TODO: Test in other browsers */
+/* TODO: Add space below contact form so can access all of it with the footer in place.*/
+/* TODO: Figure out how to make scrolling to the right areas possible responsively...may need to unfix the navbars? */
+/* TODO: Fix navbars */
+/* TODO: tooltips or something over the buttons */
+body{
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Poppins;
+}
+
+p{
+    font-family: Roboto;
+}
+
+i{
+    margin:0;
+    padding:0;
+}
+
+.icon-text{
+    margin:0;
+    padding:0;
+}
+
+/* the main class was necessary because of the fixed navbar overlapping content */
+.main{
+    margin-top: 30px;
+    margin-bottom: 95px;
+}
+
+/* Had to add padding to the top of sections because otherwise the fixed navbar overlapped the anchor points. */
+.full-section{
+    padding-top: 60px;
+}
+
+.btn{
+    background: none;
+    border: 1px solid black;
+}
+
+.navbar default{
+    background: #fff;
+    border: 0;
+    font-family: Poppins;
+}
+
+.navbar-brand{
+    font-size: 20px;
+    color:#000;
+    font-weight:bold;
+}
+
+.navbar-icon{
+    /* TODO: Make responsive & refactor css*/
+    width: 25px;
+    margin-left: 10px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase img{
+    width: 100%;
+    /* margin-left: 60px; */
+}
+
+#showcase .showcase-right{
+    margin-top: 40px;
+}
+
+.showcase-img{
+    border-radius: .75rem;
+}
+
+#tech{
+    margin-top:30px;
+}
+
+.card{
+    display: inline-block !important;
+    margin-bottom: 10px;
+}
+
+.card-row{
+    justify-content: space-evenly;
+}
+
+.tech-img-link{
+    border: 1px solid lightgray; 
+    margin-bottom: 5px;
+}
+
+.tech-img-link:hover{
+    /* background: darkgray; */
+    border: 1px solid #007bff; 
+    background: #007bff;
+    transition:3s all;
+}
+
+.tech-img{
+    width:60px;
+    height:60px;
+    border-radius:50%
+}
+
+.tech-btn{
+    margin-bottom:30px;
+}
+
+#skills{
+    margin-top:30px;
+}
+
+/* .skill-box{ */
+    /* like service-box */
+/* } */
+
+.skills-imgs{
+    width: 70px;
+}
+
+.skills-list{
+    text-align: left;
+}
+
+#projects{
+    margin-top:30px;
+}
+
+#projects h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* #projects img{
+    width: 90%;
+} */
+
+.carousel-icon{ 
+    width:10%;
+}
+
+/* Changed carousel controls per code here: https://stackoverflow.com/questions/49391266/change-bootstrap-4-carousel-control-colors 23f00*/
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#3bd6c6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#ff5000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-caption-top{
+    color: black;
+    opacity:.1;
+    transition:1s all;
+}
+
+.projects-right:hover .carousel-caption-top{
+    opacity:1;    
+    transition:1s all;
+}
+
+#projects .projects-left{
+    margin-top: 90px;
+}
+
+
+
+#contact{
+    margin-top:30px;
+}
+
+.contact-icons{
+    margin-top: 25px;
+    margin-bottom:35px
+}
+
+.contact-icon{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.contact-btn{
+    background: white;
+}
+
+/* form{
+    margin-top: 75px;
+} */
+
+/* footer{
+    padding: 30px;
+} */
+
+
+
+/* .full-section{ */
+    /* @media min-width: 1200px {
+        height: 600px;
+    } */
+    /* height: 600px; */
+    /* TODO: Make responsive & refactor css*/
+/* } */
+
